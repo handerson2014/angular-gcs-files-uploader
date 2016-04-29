@@ -1,6 +1,6 @@
 {
   "name": "angular-gcs-files-uploader",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "main": "uploader.js",
   "dependencies": {
     "angular": "1.5.5",
