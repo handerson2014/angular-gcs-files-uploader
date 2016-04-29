@@ -1,0 +1,29 @@
+{
+  "name": "angular-gcs-files-uploader",
+  "version": "0.0.3",
+  "main": "uploader.js",
+  "dependencies": {
+    "angular": "1.5.5",
+    "angular-gcs-files-uploader": "*"
+  },
+  "homepage": "https://github.com/handerson2014/angular-gcs-files-uploader",
+  "authors": [
+    "handerson2014 <handerson.contreras@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "description": "\"Directive to upload file automatically to google cloud storage\"",
+  "keywords": [
+    "gcs",
+    "gae",
+    "uploader",
+    "angular",
+    "files"
+  ]
+}
