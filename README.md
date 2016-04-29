@@ -5,7 +5,7 @@ In your Angular main module you have to create a global variable called SETTINGS
 
 Example:
 
-var app = angular.module('OneCampus', ['gae-uploader-comp']);
+var app = angular.module('OneCampus', ['angular-gcs-uploader-comp']);
 
 var SETTINGS = {
     UPLOADER: {
