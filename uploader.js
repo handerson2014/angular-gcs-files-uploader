@@ -97,7 +97,8 @@ app.directive('uploadFile', ['SETTINGS', '__Uploader', '$rootScope', function(SE
             var req = $http({
                 'method': 'GET',
                 'url': url,
-                'params': data
+                'params': data,
+                'skipAuthorization': true
             });
 
             return req;
@@ -111,6 +112,7 @@ app.directive('uploadFile', ['SETTINGS', '__Uploader', '$rootScope', function(SE
                   'Content-Type': undefined
                 },
                 transformRequest: angular.identity,
+                'skipAuthorization': true
             });
             return req;
         }
